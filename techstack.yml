@@ -1,0 +1,83 @@
+repo_name: Eldius/packer-images
+report_id: 7ea15161983b5e72c61e2bd10468f023
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-31T20:41:29+00:00'
+requested_by: liamjbennett
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/Eldius/packer-images
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Eldius/packer-images
+  detection_source: Repo Metadata
+- name: RubyGems
+  description: Easily download, install, and use ruby software packages on your system
+  website_url: https://rubygems.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/Eldius/packer-images/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: liamjbennett
+  last_updated_on: 2014-09-16 19:30:18.000000000 Z
+- name: Serverspec
+  description: Tests for your servers configured by Puppet, Chef or anything else
+  website_url: http://serverspec.org/
+  version: 1.16.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/2318/New_Project.png
+  detection_source_url: https://github.com/Eldius/packer-images/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: liamjbennett
+  last_updated_on: 2014-11-20 15:59:56.000000000 Z
+- name: rake
+  description: Rake is a Make-like program implemented in Ruby
+  package_url: https://rubygems.org/rake
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/18812/default_f582e4648f4682adb72d2b201218cda7f8e894ac.png
+  detection_source_url: https://github.com/Eldius/packer-images/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: liamjbennett
+  last_updated_on: 2014-09-16 19:30:18.000000000 Z
+- name: winrm
+  description: Ruby library for Windows Remote Management
+  package_url: https://rubygems.org/winrm
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: RubyGems Packages
+  image_url: https://img.stackshare.io/package/19755/default_20ddf5326e65d3c279ff694c6e5f33b458ba3de8.png
+  detection_source_url: https://github.com/Eldius/packer-images/blob/master/Gemfile
+  detection_source: Gemfile
+  last_updated_by: liamjbennett
+  last_updated_on: 2014-09-16 19:30:18.000000000 Z
